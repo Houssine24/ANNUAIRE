@@ -1,7 +1,7 @@
 <?php
 try  {
        $bdd = new
-       PDO('mysql:host=localhost;dbname=ma_premiere_base;charset=utf8', 'simoccauch30', 'mamanjetaime4812');
+       PDO('mysql:host=localhost;dbname=ma_premiere_base;charset=utf8', '****', '******');
 }catch (Exception $e) {
         die('Erreur : ' . $e->getMessage());
 }
