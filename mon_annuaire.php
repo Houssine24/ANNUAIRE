@@ -22,7 +22,7 @@
 
  <?php 
 try{
-    $bdd = new PDO('mysql:host=localhost;dbname=annuaire_sql;charset=utf8', 'simoccauch30', 'mamanjetaime4812');}
+    $bdd = new PDO('mysql:host=localhost;dbname=annuaire_sql;charset=utf8', '***', '***');}
 catch (Exception $e){
       die('Erreur : ' . $e->getMessage());}
      $reponse = $bdd->query('SELECT * FROM contacts') ;
